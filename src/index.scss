@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Montserrat', 'Roboto', 'Oxygen',
@@ -7,4 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+div {
+  color: black;
+    span{
+      color: blue;
+    }
+}

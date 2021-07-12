@@ -9,7 +9,7 @@ class Header extends Component {
     render() {
 
         return (
-            <div>Header</div>
+            <div>pouet<span>Header</span></div>
         )
     }
 }
