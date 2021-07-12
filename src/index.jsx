@@ -1,5 +1,6 @@
 import 'normalize.css'
 import './index.scss'
+import './../src/assets/scss/Stylesheet.scss'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -19,7 +20,7 @@ ReactDOM.render(
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/home">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/room">

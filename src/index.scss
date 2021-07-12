@@ -1,3 +1,4 @@
+@import "./assets/scss/mixins.scss";
 
 body {
   margin: 0;
@@ -8,9 +9,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-div {
-  color: black;
-    span{
-      color: blue;
-    }
+#root{
+  max-width: 1440px;
+  margin: 0 auto;
+  @include breakpoint(xl){
+    color: blue;
+  }
+}
+
+a{
+  text-decoration: none;
 }

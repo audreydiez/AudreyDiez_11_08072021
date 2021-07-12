@@ -1,0 +1,29 @@
+@import "variables";
+
+@mixin breakpoint($point) {
+    @if $point == s {
+        @media (min-width: map-get($breakpoints, s) ) {
+            @content ;
+        }
+    }
+    @else if $point == m {
+        @media (min-width: map-get($breakpoints, m) ) {
+            @content ;
+        }
+    }
+    @else if $point == l {
+        @media (min-width: map-get($breakpoints, l)) {
+            @content ;
+        }
+    }
+    @else if $point == xl {
+        @media (min-width: map-get($breakpoints, xl)) {
+            @content ;
+        }
+    }
+    @else if $point == xxl {
+        @media (min-width: map-get($breakpoints, xxl)) {
+            @content ;
+        }
+    }
+}
