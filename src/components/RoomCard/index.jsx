@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import './index.scss'
 
 class RoomCard extends Component {
   constructor(props) {
@@ -7,7 +8,11 @@ class RoomCard extends Component {
   }
 
   render() {
-    return <div>Tile Room</div>
+    return (
+      <article className="article">
+        <div className="article__title">Titre de la location</div>
+      </article>
+    )
   }
 }
 

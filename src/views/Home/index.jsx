@@ -16,7 +16,7 @@ class Home extends Component {
       <div>
         <Banner
           picture={home}
-          text={['Chez vous, ', <br />, 'partout et ailleurs.']}
+          text={['Chez vous, ', <br />, 'partout et ailleurs']}
           key="{ }"
         />
         <div className="wrapper-home">
