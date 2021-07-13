@@ -1,6 +1,8 @@
 import { Component } from 'react'
 import Banner from '../../components/Banner'
 
+import home from './../../assets/img/home.jpeg'
+
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -10,7 +12,11 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Banner />
+        <Banner
+          picture={home}
+          text={['Chez vous, ', <br />, 'partout et ailleurs.']}
+          key="{home}"
+        />
         Page Home
       </div>
     )

@@ -2,6 +2,8 @@ import { Component } from 'react'
 import Banner from '../../components/Banner'
 import Collapsible from '../../components/Collapsible'
 
+import about from '../../assets/img/about.jpeg'
+
 class About extends Component {
   constructor(props) {
     super(props)
@@ -12,7 +14,7 @@ class About extends Component {
     return (
       <div>
         Page About
-        <Banner />
+        <Banner picture={about} key="{about}" />
         <Collapsible />
       </div>
     )

@@ -1,6 +1,5 @@
 import { Component } from 'react'
 import './index.scss'
-import home from './../../assets/img/home.jpeg'
 
 class Banner extends Component {
   constructor(props) {
@@ -11,12 +10,11 @@ class Banner extends Component {
   render() {
     return (
       <div className="wrapper-banner">
-        <img src={home} alt="" className="wrapper-banner__img" />
-        <div className="wrapper-banner__background"></div>
-        <div className="wrapper-banner__txt">
-          Chez vous, <br />
-          partout et ailleurs
-        </div>
+        <img src={this.props.picture} alt="" className="wrapper-banner__img" />
+        <div className="wrapper-banner__background" />
+        {this.props.text && (
+          <div className="wrapper-banner__txt">{this.props.text}</div>
+        )}
       </div>
     )
   }
