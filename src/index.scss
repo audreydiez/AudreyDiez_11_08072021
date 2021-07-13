@@ -9,11 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root{
+.wrapper{
   max-width: 1440px;
   margin: 0 auto;
   @include breakpoint(xl){
-    color: blue;
+
   }
 }
 

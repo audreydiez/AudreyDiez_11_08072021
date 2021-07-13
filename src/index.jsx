@@ -18,21 +18,23 @@ import Error from './components/Error'
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/room">
-          <Room />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route>
-          <Error />
-        </Route>
-      </Switch>
+      <div className="wrapper">
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/room">
+            <Room />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route>
+            <Error />
+          </Route>
+        </Switch>
+      </div>
       <Footer />
     </Router>
   </React.StrictMode>,

@@ -17,7 +17,7 @@
     }
 
     &__logo{
-        img{
+        .logo{
             max-width: 100px;
             @include breakpoint(m) {
                 max-width: 140px;

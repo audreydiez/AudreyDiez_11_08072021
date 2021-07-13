@@ -2,7 +2,7 @@ import { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss'
 
-import Logo from './../../assets/img/logo.svg'
+import Logo from './../Logo'
 
 class Header extends Component {
   constructor(props) {
@@ -14,7 +14,7 @@ class Header extends Component {
     return (
       <header className="header">
         <Link className="header__logo" to="/">
-          <img src={Logo} alt="Kasa Home page" />
+          <Logo fill="#FF6060" className="logo" />
         </Link>
         <nav className="header__nav">
           <Link className="nav-link" to="/">
