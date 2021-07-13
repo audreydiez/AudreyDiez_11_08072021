@@ -1,0 +1,9 @@
+@import "./../../assets/scss/mixins.scss";
+@import "./../../assets/scss/variables.scss";
+
+.wrapper-home{
+    background-color: $background-tiles;
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: $border-radius;
+}
