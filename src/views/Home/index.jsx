@@ -20,12 +20,9 @@ class Home extends Component {
           key="{ }"
         />
         <div className="wrapper-home">
-          <RoomCard />
-          <RoomCard />
-          <RoomCard />
-          <RoomCard />
-          <RoomCard />
-          <RoomCard />
+          {this.props.data.map((apartment) => (
+            <RoomCard key={apartment.id} apartment={apartment} />
+          ))}
         </div>
       </div>
     )

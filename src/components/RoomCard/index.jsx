@@ -10,7 +10,7 @@ class RoomCard extends Component {
   render() {
     return (
       <article className="article">
-        <div className="article__title">Titre de la location</div>
+        <div className="article__title">{this.props.apartment.title}</div>
       </article>
     )
   }

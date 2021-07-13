@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import reportWebVitals from './reportWebVitals'
 
+import data from './../src/assets/data/data.json'
+
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './views/Home'
@@ -22,7 +24,7 @@ ReactDOM.render(
         <Header />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Home data={data} />
           </Route>
           <Route path="/room">
             <Room />
