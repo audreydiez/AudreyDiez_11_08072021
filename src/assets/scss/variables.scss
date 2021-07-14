@@ -1,0 +1,25 @@
+// Colours
+$colour-primary: #FF6060;
+$colour-secondary: #E3E3E3;
+$colour-tertiary: #000;
+
+// Fonts
+$font-size-base: 1rem;
+$font-color-light: #FFF;
+$font-color-dark: #000;
+
+// Breakpoint for responsive
+$breakpoints:(
+        s: "320px",
+        m: "576px",
+        l: "992px",
+        xl: "1024px",
+        xxl: "1490px"
+);
+
+
+//Layout margin
+$layout-margin : 2.5rem 1.5rem;
+$border-radius-s : 10px;
+$border-radius-lg : 25px;
+$background-tiles : #F6F6F6;

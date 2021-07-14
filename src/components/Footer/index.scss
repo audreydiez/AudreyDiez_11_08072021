@@ -1,0 +1,27 @@
+@import "./../../assets/scss/mixins.scss";
+@import "./../../assets/scss/variables.scss";
+
+.footer{
+    background-color: $colour-tertiary;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: $font-color-light;
+    align-items: center;
+    margin:  0 0 0 0;
+    &__logo{
+        padding: 2rem 0 0 0;
+       .logo{
+           max-width: 122px;
+       }
+    }
+    &__mentions{
+        padding: 0.5rem 0 2rem 0;
+        font-size: 0.8rem;
+
+        @include breakpoint(m) {
+            padding: 1rem 0 2rem 0;
+            font-size: 1rem;
+        }
+    }
+}

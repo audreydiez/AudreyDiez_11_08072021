@@ -1,0 +1,23 @@
+@import "./../../assets/scss/mixins.scss";
+@import "./../../assets/scss/variables.scss";
+
+.wrapper-home{
+    background-color: $background-tiles;
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: $border-radius-s;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    @include breakpoint(l) {
+        border-radius: $border-radius-lg;
+        justify-content: space-between;
+        padding: 1rem 2.5rem;
+        width: calc(100% - 5rem);
+
+    }
+}
