@@ -17,7 +17,8 @@
   <h3 align="center">Projet 11 - KASA</h3>  
 </p>
 
-<p align="center">
+<p align="left">
+<br />
      Compétences visées :     
        <ol>
          <li>Développer les routes d'une application web avec React Router</li>      
