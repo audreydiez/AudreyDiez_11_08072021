@@ -3,29 +3,27 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 <img alt="Code Climate maintainability" src="https://img.shields.io/codeclimate/maintainability/audreydiez/AudreyDiez_11_08072021?style=for-the-badge">
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![Website](https://img.shields.io/website?style=for-the-badge&up_message=audreydiez.com&url=https%3A%2F%2Faudreydiez.com%2F)
+
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/audreydiez/AudreyDiez_11_08072021">  
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="145" height="47">
   </a>
 
   <h3 align="center">Projet 11 - KASA</h3>  
 </p>
 
 <p align="center">
-     Compétences visées :
-     <details open="open">
+     Compétences visées :     
        <ol>
          <li>Développer les routes d'une application web avec React Router</li>      
          <li>Initialiser une application web avec un framework</li>  
          <li>Créer des composants avec React</li>  
-       </ol>
-     </details>
+       </ol>    
     <br />
     <a href="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa.pdf"><strong>Voir le coding guide »</strong></a>
     <br />
@@ -151,10 +149,9 @@ Audrey Diez - [@Linkedin](https://www.linkedin.com/in/audrey-diez-5862345b/) - a
 [stars-url]: https://github.com/audreydiez/AudreyDiez_11_08072021/stargazers
 [issues-shield]: https://img.shields.io/github/issues/audreydiez/AudreyDiez_11_08072021.svg?style=for-the-badge
 [issues-url]: https://github.com/audreydiez/AudreyDiez_11_08072021/issues
-
-[license-shield]: https://img.shields.io/github/license/audreydiez/AudreyDiez_11_08072021.svg?style=for-the-badge
-[license-url]: https://github.com/audreydiez/AudreyDiez_11_08072021/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/audrey-diez-5862345b
+[website-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[website-url]: https://linkedin.com/in/audrey-diez-5862345b
 [product-screenshot]: images/screenshot.png
 [logo]: images/logo.png
