@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e0d1ff7-4441-4ffa-b52d-a6b9edee9cdc" name="Default Changelist" comment="" />
+    <list default="true" id="2e0d1ff7-4441-4ffa-b52d-a6b9edee9cdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Banner/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RoomCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RoomCard/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomCard/index.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -45,6 +60,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -54,7 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects_2021\AudreyDiez_11_08072021\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,22 +89,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1626263695322">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1626263695322" />
-    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1626263695322">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1626263695322" />
-    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1626263695322">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1626263695322" />
-    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1626263695322">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1626263695322" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

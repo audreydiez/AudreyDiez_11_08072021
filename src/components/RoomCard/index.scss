@@ -5,29 +5,47 @@
     position: relative;
     width: 100%;
     height: 255px;
-    background-color: burlywood;
-    margin: 0 0 1rem 0;
-    border-radius: $border-radius-s;
 
+    margin: 0 0 1rem 0;
     display: flex;
     align-items: flex-end;
+
 
     @include breakpoint(l) {
         margin: 1rem 0 1rem 0;
         height: 340px;
-
         width: calc(50% - 1rem);
     }
 
     @include breakpoint(xxl) {
         width: calc(33.33333% - 1.5rem);
     }
-
+    &__image{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: $border-radius-s;
+        object-fit: cover;
+        object-position: center center;
+    }
     &__title{
-        margin: 0 5rem 1rem 1rem;
+        padding: 1.5rem 2rem 1.5rem 1rem;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        color: $font-color-light;
+        font-weight: bold;
 
         @include breakpoint(l) {
-            margin: 0 5rem 1.5rem 1.5rem;
+            padding: 1.5rem 8rem 1.5rem 1rem;
         }
     }
+    &__title::before{
+        content: ' ';
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
 }
