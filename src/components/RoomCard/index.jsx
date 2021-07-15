@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import './index.scss'
+import {Link} from "react-router-dom";
 
 class RoomCard extends Component {
   constructor(props) {
@@ -7,12 +8,21 @@ class RoomCard extends Component {
     this.state = {}
   }
 
+
+
   render() {
+    const { title, cover, id } = this.props.apartment;
+
     return (
-      <article className="article">
-        <img className="article__image" src={this.props.apartment.cover} alt=""/>
-        <div className="article__title">{this.props.apartment.title}</div>
-      </article>
+
+
+        <article className="article">
+
+          <img className="article__image" src={cover} alt=""/>
+          <div className="article__title">{title}</div>
+
+        </article>
+
     )
   }
 }

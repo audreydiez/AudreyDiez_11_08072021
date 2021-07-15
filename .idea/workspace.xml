@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e0d1ff7-4441-4ffa-b52d-a6b9edee9cdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoomCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomCard/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoomCard/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomCard/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

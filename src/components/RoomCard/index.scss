@@ -5,8 +5,6 @@
     position: relative;
     width: 100%;
     height: 255px;
-
-    margin: 0 0 1rem 0;
     display: flex;
     align-items: flex-end;
 
@@ -14,11 +12,11 @@
     @include breakpoint(l) {
         margin: 1rem 0 1rem 0;
         height: 340px;
-        width: calc(50% - 1rem);
+        //width: calc(50% - 1rem);
     }
 
     @include breakpoint(xxl) {
-        width: calc(33.33333% - 1.5rem);
+        //width: calc(33.33333% - 1.5rem);
     }
     &__image{
         position:absolute;
@@ -36,16 +34,15 @@
         background-color: rgba(0, 0, 0, 0.5);
         z-index: 1;
         color: $font-color-light;
+        border-radius: 0 0 $border-radius-s $border-radius-s;
         font-weight: bold;
 
         @include breakpoint(l) {
             padding: 1.5rem 8rem 1.5rem 1rem;
         }
+
+
     }
-    &__title::before{
-        content: ' ';
-        z-index: 1;
-        background-color: rgba(255, 255, 255, 0.5);
-    }
+
 
 }
