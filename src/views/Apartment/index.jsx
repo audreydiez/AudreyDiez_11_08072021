@@ -34,7 +34,7 @@ class Apartment extends Component {
       } = apartment[0];
 
     return (
-      <div>
+      <div className="apt-wrapper">
         <Carousel />
         <div className="apt">
             <div className="apt-profile">
@@ -67,11 +67,13 @@ class Apartment extends Component {
 
             </div>
         </div>
+        <div className="description">
+            <Collapsible title="Description" content={description} isArray={Array.isArray(description)} />
+        </div>
+          <div className="description">
+              <Collapsible title="Equipements" content={equipments} isArray={Array.isArray(equipments)} />
+          </div>
 
-
-
-
-        <Collapsible />
       </div>
     )
   }

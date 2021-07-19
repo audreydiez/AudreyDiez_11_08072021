@@ -32,6 +32,11 @@
             width: 18px;
             height:auto;
             transform: rotate(180deg);
+            transition: all 0.4s ease;
+
+            &.is-open{
+                transform: rotate(0deg);
+            }
         }
 
     }
@@ -42,10 +47,11 @@
         padding: calc(30px + 1rem) 0.7rem 1rem 0.7rem;
         color: $colour-primary;
         animation: fadeIn 0.2s ease-in-out;
-        display: flex;
+
+        line-height: 1.4rem;
 
         &.is-open{
-            height: 100%;
+            display: block;
         }
 
         &.is-close{
