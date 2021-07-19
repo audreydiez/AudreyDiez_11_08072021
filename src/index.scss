@@ -8,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 .wrapper{
@@ -72,3 +73,7 @@ button {
   -webkit-appearance: none;
 }
 
+p{
+  margin: 0;
+  padding: 0;
+}
