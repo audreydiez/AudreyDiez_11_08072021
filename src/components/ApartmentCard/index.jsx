@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import './index.scss'
 
-class RoomCard extends Component {
+class ApartmentCard extends Component {
   constructor(props) {
     super(props)
     this.state = {}
@@ -10,7 +10,7 @@ class RoomCard extends Component {
 
 
   render() {
-    const { title, cover, id } = this.props.apartment;
+    const { title, cover } = this.props.apartment;
 
     return (
 
@@ -26,4 +26,4 @@ class RoomCard extends Component {
   }
 }
 
-export default RoomCard
+export default ApartmentCard

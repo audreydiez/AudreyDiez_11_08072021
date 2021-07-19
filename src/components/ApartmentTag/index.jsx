@@ -1,14 +1,17 @@
 import { Component } from 'react'
+import './index.scss'
 
-class RoomTag extends Component {
+class ApartmentTag extends Component {
   constructor(props) {
     super(props)
     this.state = {}
   }
 
   render() {
-    return <div>Un tag</div>
+
+
+    return <button className="btn--tag">{this.props.tag}</button>
   }
 }
 
-export default RoomTag
+export default ApartmentTag

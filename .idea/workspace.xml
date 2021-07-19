@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e0d1ff7-4441-4ffa-b52d-a6b9edee9cdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.codeclimate.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.codeclimate.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ApartmentTag/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Star/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Star/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Apartment/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApartmentCard/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomCard/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApartmentCard/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomTag/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApartmentTag/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ApartmentCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApartmentCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ApartmentTag/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApartmentTag/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Apartment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Apartment/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Room/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Apartment/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <updated>1625779087385</updated>
       <workItem from="1625779088595" duration="127000" />
       <workItem from="1626423805609" duration="5744000" />
-      <workItem from="1626681809102" duration="1338000" />
+      <workItem from="1626681809102" duration="12775000" />
     </task>
     <servers />
   </component>

@@ -3,9 +3,8 @@ import Banner from '../../components/Banner'
 import './index.scss'
 
 import home from './../../assets/img/home.jpeg'
-import RoomCard from '../../components/ApartmentCard'
+import ApartmentCard from '../../components/ApartmentCard'
 import {Link} from "react-router-dom";
-import about from "../../assets/img/about.jpeg";
 
 class Home extends Component {
   constructor(props) {
@@ -27,9 +26,9 @@ class Home extends Component {
           }
         />
         <main className="wrapper-home">
-          {this.props.data.map((apartment) => (
-              <Link className="article-link" to={`/room/${apartment.id}`} title={apartment.title} key={apartment.id}>
-                    <RoomCard apartment={apartment} />
+          {this.props.data.map((apartment, index) => (
+              <Link className="article-link" to={`/apartments/${apartment.id}`} title={apartment.title} key={index}>
+                    <ApartmentCard apartment={apartment} />
               </Link>
           ))}
         </main>

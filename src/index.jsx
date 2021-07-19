@@ -13,7 +13,7 @@ import data from './../src/assets/data/data.json'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './views/Home'
-import Room from './views/Apartment'
+import Apartment from './views/Apartment'
 import About from './views/About'
 import Error from './components/Error'
 
@@ -26,8 +26,9 @@ ReactDOM.render(
           <Route exact path="/">
             <Home data={data} />
           </Route>
-          <Route path="/room">
-            <Room />
+          <Route path="/apartments/:id"
+                 render={(props) => <Apartment {...props} apartments={data} />}
+          >
           </Route>
           <Route path="/about">
             <About />
