@@ -3,8 +3,9 @@ import Banner from '../../components/Banner'
 import './index.scss'
 
 import home from './../../assets/img/home.jpeg'
-import RoomCard from '../../components/RoomCard'
+import RoomCard from '../../components/ApartmentCard'
 import {Link} from "react-router-dom";
+import about from "../../assets/img/about.jpeg";
 
 class Home extends Component {
   constructor(props) {
@@ -13,12 +14,17 @@ class Home extends Component {
   }
 
   render() {
+      const bannerTitle = ['Chez vous, ', <br />, 'partout et ailleurs']
+
     return (
       <div>
         <Banner
           picture={home}
-          text={['Chez vous, ', <br />, 'partout et ailleurs']}
-          key="{ }"
+          text={
+              bannerTitle.map((word, index)=>{
+                  return (<span key={index}>{word}</span>)
+              })
+          }
         />
         <main className="wrapper-home">
           {this.props.data.map((apartment) => (

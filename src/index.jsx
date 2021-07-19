@@ -13,7 +13,7 @@ import data from './../src/assets/data/data.json'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './views/Home'
-import Room from './views/Room'
+import Room from './views/Apartment'
 import About from './views/About'
 import Error from './components/Error'
 

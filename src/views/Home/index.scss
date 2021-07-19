@@ -1,5 +1,5 @@
 @import "./../../assets/scss/mixins.scss";
-@import "./../../assets/scss/variables.scss";
+
 
 .wrapper-home{
 
@@ -10,8 +10,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
-
 
 
     @include breakpoint(l) {

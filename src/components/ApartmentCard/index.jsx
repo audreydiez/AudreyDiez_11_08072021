@@ -1,6 +1,5 @@
 import { Component } from 'react'
 import './index.scss'
-import {Link} from "react-router-dom";
 
 class RoomCard extends Component {
   constructor(props) {

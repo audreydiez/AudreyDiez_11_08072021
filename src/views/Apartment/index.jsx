@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import Carousel from '../../components/Carousel'
-import RoomTag from '../../components/RoomTag'
+import RoomTag from '../../components/ApartmentTag'
 import Collapsible from '../../components/Collapsible'
 
 class Room extends Component {
@@ -10,10 +10,17 @@ class Room extends Component {
   }
 
   render() {
+
+
     return (
       <div>
         <Carousel />
-        Page Room
+        <div className="room-profile">
+            <div className="room-profile__title">
+                <h1>Title</h1>
+                <span className="subtitle">Sous titre</span>
+            </div>
+        </div>
         <RoomTag />
         <Collapsible />
       </div>
