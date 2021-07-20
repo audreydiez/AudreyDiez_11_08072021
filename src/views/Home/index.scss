@@ -1,8 +1,7 @@
-@import "./../../assets/scss/mixins.scss";
+@import './../../assets/scss/mixins.scss';
 
-
-.wrapper-home{
-
+.wrapper-home {
+    position: relative;
     width: 100%;
 
     margin: 1rem 0;
@@ -11,21 +10,18 @@
     flex-wrap: wrap;
     justify-content: center;
 
-
     @include breakpoint(l) {
         border-radius: $border-radius-lg;
         background-color: $background-tiles;
         margin: 1.5rem 0;
         padding: 0.5rem 1rem 1rem 1rem;
         width: calc(100% - 2rem);
-
     }
 
-    .article-link{
+    .article-link {
         border-radius: $border-radius-s;
         margin: 1rem 0 0 0;
         width: 100%;
-
 
         @include breakpoint(l) {
             border-radius: $border-radius-lg;

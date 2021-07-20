@@ -1,24 +1,26 @@
-@import "./../../assets/scss/mixins.scss";
-@import "./../../assets/scss/variables.scss";
+@import './../../assets/scss/mixins.scss';
+@import './../../assets/scss/variables.scss';
 
-.footer{
+.footer {
+    position: relative;
+
+    width: 100%;
+
     background-color: $colour-tertiary;
-    display:flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     color: $font-color-light;
     align-items: center;
-    margin:  5rem 0 0 0;
+    margin: 10rem 0 0 0;
 
-
-
-    &__logo{
+    &__logo {
         padding: 2rem 0 0 0;
-       .logo{
-           max-width: 122px;
-       }
+        .logo {
+            max-width: 122px;
+        }
     }
-    &__mentions{
+    &__mentions {
         padding: 0.5rem 0 2rem 0;
         font-size: 0.8rem;
 
