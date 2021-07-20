@@ -29,7 +29,6 @@ class Carousel extends Component {
 
     render() {
         const pictures = this.props.pictures
-        const isActive = true
 
         return (
             <div className="carousel">
