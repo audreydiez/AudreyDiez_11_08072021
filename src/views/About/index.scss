@@ -1,0 +1,11 @@
+@import './../../assets/scss/mixins.scss';
+@import './../../assets/scss/variables.scss';
+
+.wrapper-about {
+    width: 100%;
+    margin: auto;
+
+    @include breakpoint(xl) {
+        width: 80%;
+    }
+}
