@@ -104,7 +104,11 @@
 }
 
 .description{
+    margin-top: 0rem;
+    width: 100%;
 
-    width: calc(50% - 2rem);
+    @include breakpoint(xl) {
+        width: calc(50% - 2rem);
+    }
 
 }

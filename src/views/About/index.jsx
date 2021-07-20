@@ -13,7 +13,6 @@ class About extends Component {
   render() {
     return (
       <div>
-        Page About
         <Banner picture={about} key="{about}" />
         <Collapsible />
       </div>
