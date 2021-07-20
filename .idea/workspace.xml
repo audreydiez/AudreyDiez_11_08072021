@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e0d1ff7-4441-4ffa-b52d-a6b9edee9cdc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Carousel/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ApartmentTag/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ApartmentTag/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/src/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Collapsible/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Collapsible/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Collapsible/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Collapsible/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/About/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/About/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Apartment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Apartment/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Apartment/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Apartment/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +76,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projects_2021\AudreyDiez_11_08072021\node_modules\prettier" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -84,7 +90,7 @@
       <updated>1625779087385</updated>
       <workItem from="1625779088595" duration="127000" />
       <workItem from="1626423805609" duration="5744000" />
-      <workItem from="1626681809102" duration="27519000" />
+      <workItem from="1626681809102" duration="32778000" />
     </task>
     <servers />
   </component>

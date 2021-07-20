@@ -1,52 +1,50 @@
-@import "./assets/scss/variables.scss";
-@import "./assets/scss/mixins.scss";
+@import './assets/scss/variables.scss';
+@import './assets/scss/mixins.scss';
 
 body {
   margin: 0;
-  font-family: 'Montserrat', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
-.wrapper{
+.wrapper {
   margin: 1rem;
 
-  @include breakpoint(m){
+  @include breakpoint(m) {
     margin: 1rem 2rem;
   }
-  @include breakpoint(xxl){
+  @include breakpoint(xxl) {
     max-width: 1440px;
     margin: 1.5rem auto;
   }
 }
-a{
+a {
   text-decoration: none;
   margin: 0;
   padding: 0;
 }
 
-h1{
+h1 {
   margin: 0;
   padding: 0;
   font-size: 1.5rem;
   font-weight: 500;
 
-    @include breakpoint(xl) {
-      font-size: 2rem;
-    }
+  @include breakpoint(xl) {
+    font-size: 2rem;
+  }
 }
-h2{
+h2 {
   margin: 0;
   padding: 0;
   font-size: 1.3rem;
   font-weight: 500;
 
-    @include breakpoint(xl) {
-      font-size: 1.6rem;
-    }
+  @include breakpoint(xl) {
+    font-size: 1.6rem;
+  }
 }
 
 button {
@@ -73,11 +71,12 @@ button {
   -webkit-appearance: none;
 }
 
-p{
+p {
   margin: 0;
   padding: 0;
 }
 
-ul, li {
+ul,
+li {
   text-decoration: none;
 }

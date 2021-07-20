@@ -26,10 +26,10 @@ ReactDOM.render(
           <Route exact path="/">
             <Home data={data} />
           </Route>
-          <Route path="/apartments/:id"
-                 render={(props) => <Apartment {...props} apartments={data} />}
-          >
-          </Route>
+          <Route
+            path="/apartments/:id"
+            render={(props) => <Apartment {...props} apartments={data} />}
+          />
           <Route path="/about">
             <About />
           </Route>
