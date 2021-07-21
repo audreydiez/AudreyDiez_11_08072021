@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e0d1ff7-4441-4ffa-b52d-a6b9edee9cdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/data/about.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/About/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Collapsible/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Collapsible/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/About/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/About/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Apartment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Apartment/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Apartment/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Apartment/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <updated>1625779087385</updated>
       <workItem from="1625779088595" duration="127000" />
       <workItem from="1626423805609" duration="5744000" />
-      <workItem from="1626681809102" duration="39908000" />
+      <workItem from="1626681809102" duration="41530000" />
     </task>
     <servers />
   </component>

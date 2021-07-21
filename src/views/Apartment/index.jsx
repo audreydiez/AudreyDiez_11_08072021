@@ -31,6 +31,9 @@ class Apartment extends Component {
             pictures,
         } = apartment[0]
 
+        const firstname = host.name.split(' ')[0]
+        const lastname = host.name.split(' ')[1]
+
         return (
             <div className="apt-wrapper">
                 <Carousel pictures={pictures} />
@@ -66,7 +69,11 @@ class Apartment extends Component {
                             )}
                         </div>
                         <div className="apt-author__identity">
-                            <div className="name">{host.name}</div>
+                            <div className="name">
+                                {firstname}
+                                <br />
+                                {lastname}
+                            </div>
                             <div className="avatar">
                                 <img src={host.picture} alt="" />
                             </div>
