@@ -2,7 +2,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-<img alt="Code Climate maintainability" src="https://img.shields.io/codeclimate/maintainability/audreydiez/AudreyDiez_11_08072021?style=for-the-badge">
 ![Website](https://img.shields.io/website?style=for-the-badge&up_message=audreydiez.com&url=https%3A%2F%2Faudreydiez.com%2F)
 
 
