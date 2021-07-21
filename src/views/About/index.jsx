@@ -17,14 +17,15 @@ class About extends Component {
             <div>
                 <Banner picture={about} key="{about}" />
                 <div className="wrapper-about">
-                    {aboutData.map((data) => (
-                        <Collapsible
-                            title={data.title}
-                            content={data.content}
-                            key={data.id}
-                        />
-                    ))}
+                  {aboutData.map((data) => (
+                      <Collapsible
+                          title={data.title}
+                          content={data.content}
+                          key={data.id}
+                      />
+                  ))}
                 </div>
+
             </div>
         )
     }
