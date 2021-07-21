@@ -1,0 +1,13 @@
+@import "./../../assets/scss/mixins.scss";
+@import "./../../assets/scss/variables.scss";
+
+
+.btn--tag{
+    background-color: $colour-primary;
+    color: $font-color-light;
+    padding: 0.4em 1rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin: 1rem 1rem 0 0;
+
+}

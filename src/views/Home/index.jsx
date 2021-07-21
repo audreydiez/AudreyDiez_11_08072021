@@ -3,7 +3,8 @@ import Banner from '../../components/Banner'
 import './index.scss'
 
 import home from './../../assets/img/home.jpeg'
-import RoomCard from '../../components/RoomCard'
+import ApartmentCard from '../../components/ApartmentCard'
+import {Link} from "react-router-dom";
 
 class Home extends Component {
   constructor(props) {
@@ -12,18 +13,25 @@ class Home extends Component {
   }
 
   render() {
+      const bannerTitle = ['Chez vous, ', <br />, 'partout et ailleurs']
+
     return (
       <div>
         <Banner
           picture={home}
-          text={['Chez vous, ', <br />, 'partout et ailleurs']}
-          key="{ }"
+          text={
+              bannerTitle.map((word, index)=>{
+                  return (<span key={index}>{word}</span>)
+              })
+          }
         />
-        <div className="wrapper-home">
-          {this.props.data.map((apartment) => (
-            <RoomCard key={apartment.id} apartment={apartment} />
+        <main className="wrapper-home">
+          {this.props.data.map((apartment, index) => (
+              <Link className="article-link" to={`/apartments/${apartment.id}`} title={apartment.title} key={index}>
+                    <ApartmentCard apartment={apartment} />
+              </Link>
           ))}
-        </div>
+        </main>
       </div>
     )
   }

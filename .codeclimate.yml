@@ -5,7 +5,7 @@ plugins:
     config:
       languages:
         javascript:
-          mass_threshold: 50
+          mass_threshold: 4
   eslint:
     enabled: true
   fixme:
