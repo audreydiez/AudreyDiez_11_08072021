@@ -18,30 +18,33 @@ import About from './views/About'
 import Error from './components/Error'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-      <div className="wrapper">
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <Home data={data} />
-          </Route>
-          <Route
-            path="/apartments/:id"
-            render={(props) => <Apartment {...props} apartments={data} />}
-          />
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route>
-            <Error />
-          </Route>
-        </Switch>
-      </div>
-      <Footer />
-    </Router>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Router>
+            <div className="wrapper">
+                <Header />
+                <Switch>
+                    <Route exact path="/">
+                        <Home data={data} />
+                    </Route>
+                    <Route
+                        exact
+                        path="/apartments/:id"
+                        render={(props) => (
+                            <Apartment {...props} apartments={data} />
+                        )}
+                    />
+                    <Route exact path="/about">
+                        <About />
+                    </Route>
+                    <Route>
+                        <Error />
+                    </Route>
+                </Switch>
+            </div>
+            <Footer />
+        </Router>
+    </React.StrictMode>,
+    document.getElementById('root')
 )
 
 // If you want to start measuring performance in your app, pass a function

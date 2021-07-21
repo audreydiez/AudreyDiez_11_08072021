@@ -34,17 +34,19 @@ class Carousel extends Component {
             <div className="carousel">
                 <img
                     src={pictures[this.state.currentPictureIndex]}
-                    alt=""
+                    alt="appartement"
                     className="carousel__picture"
                 />
                 <img
                     className="carousel__arrow-left"
                     src={arrow}
+                    alt="Précédent"
                     onClick={this.previous}
                 />
                 <img
                     className="carousel__arrow-right"
                     src={arrow}
+                    alt="Suivant"
                     onClick={this.next}
                 />
                 <div className="carousel__navigation">
