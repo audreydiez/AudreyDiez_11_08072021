@@ -28,7 +28,7 @@
     <br />
     <a href="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa.pdf"><strong>Voir le coding guide »</strong></a>
     <br />
-    <a href="thirsty-turing-83e880.netlify.app">Voir la démo</a>
+    <a href="https://thirsty-turing-83e880.netlify.app/">Voir la démo</a>
     ·
     <a href="https://github.com/audreydiez/AudreyDiez_11_08072021/issues">Reporter un Bug</a>
     ·
