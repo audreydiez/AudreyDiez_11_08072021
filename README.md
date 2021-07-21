@@ -2,6 +2,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9e72409-5028-4d48-ad46-1dff1ca65f66/deploy-status)](https://app.netlify.com/sites/thirsty-turing-83e880/deploys)
 ![Website](https://img.shields.io/website?style=for-the-badge&up_message=audreydiez.com&url=https%3A%2F%2Faudreydiez.com%2F)
 
 
@@ -27,7 +28,7 @@
     <br />
     <a href="https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa.pdf"><strong>Voir le coding guide »</strong></a>
     <br />
-    <a href="https://audreydiez.github.io/AudreyDiez_11_08072021/">Voir la démo</a>
+    <a href="thirsty-turing-83e880.netlify.app">Voir la démo</a>
     ·
     <a href="https://github.com/audreydiez/AudreyDiez_11_08072021/issues">Reporter un Bug</a>
     ·
