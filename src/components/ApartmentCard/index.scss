@@ -1,13 +1,12 @@
-@import "./../../assets/scss/mixins.scss";
-@import "./../../assets/scss/variables.scss";
+@import './../../assets/scss/mixins.scss';
+@import './../../assets/scss/variables.scss';
 
-.article{
+.article {
     position: relative;
     width: 100%;
     height: 255px;
     display: flex;
     align-items: flex-end;
-
 
     @include breakpoint(l) {
         margin: 1rem 0 1rem 0;
@@ -18,8 +17,8 @@
     @include breakpoint(xxl) {
         //width: calc(33.33333% - 1.5rem);
     }
-    &__image{
-        position:absolute;
+    &__image {
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -28,7 +27,7 @@
         object-fit: cover;
         object-position: center center;
     }
-    &__title{
+    &__title {
         padding: 1.5rem 2rem 1.5rem 1rem;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5);
@@ -40,9 +39,5 @@
         @include breakpoint(l) {
             padding: 1.5rem 8rem 1.5rem 1rem;
         }
-
-
     }
-
-
 }

@@ -7,25 +7,19 @@ import about from '../../assets/img/about.jpeg'
 import aboutData from './../../assets/data/about.json'
 
 class About extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {}
-    }
-
     render() {
         return (
             <div>
                 <Banner picture={about} key="{about}" />
                 <div className="wrapper-about">
-                  {aboutData.map((data) => (
-                      <Collapsible
-                          title={data.title}
-                          content={data.content}
-                          key={data.id}
-                      />
-                  ))}
+                    {aboutData.map((data) => (
+                        <Collapsible
+                            title={data.title}
+                            content={data.content}
+                            key={data.id}
+                        />
+                    ))}
                 </div>
-
             </div>
         )
     }
