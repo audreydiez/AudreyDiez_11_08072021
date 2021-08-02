@@ -1,64 +1,67 @@
 import { Component } from 'react'
 import './index.scss'
 
-import arrow from './../../assets/img/arrow.svg'
 import noPicture from './../../assets/img/no_pictures.png'
+import Arrow from './Arrow'
+import Dot from './Dot'
 
 class Carousel extends Component {
     constructor(props) {
         super(props)
+
         this.state = {
+            pictures: [],
             currentPictureIndex: 0,
         }
+    }
+
+    componentDidMount() {
+        this.setState({ pictures: this.props.pictures })
     }
 
     previous = () => {
         const index =
             this.state.currentPictureIndex === 0
-                ? this.props.pictures.length - 1
+                ? this.state.pictures.length - 1
                 : this.state.currentPictureIndex - 1
         this.setState({ currentPictureIndex: index })
     }
 
     next = () => {
         const index =
-            this.state.currentPictureIndex === this.props.pictures.length - 1
+            this.state.currentPictureIndex === this.state.pictures.length - 1
                 ? 0
                 : this.state.currentPictureIndex + 1
         this.setState({ currentPictureIndex: index })
     }
 
-    render() {
-        const pictures = this.props.pictures
+    getSRC = () => {
+        return this.state.pictures[this.state.currentPictureIndex]
+            ? this.state.pictures[this.state.currentPictureIndex]
+            : noPicture
+    }
 
+    render() {
         return (
             <div className="carousel">
                 <img
-                    src={
-                        pictures[this.state.currentPictureIndex]
-                            ? pictures[this.state.currentPictureIndex]
-                            : noPicture
-                    }
+                    src={this.getSRC()}
                     alt="appartement"
                     className="carousel__picture"
                 />
 
-                {pictures.length > 1 && (
+                {this.state.pictures.length > 1 && (
                     <>
-                        <img
-                            className="carousel__arrow-left"
-                            src={arrow}
-                            alt="Précédent"
-                            onClick={this.previous}
-                        />
-                        <img
-                            className="carousel__arrow-right"
-                            src={arrow}
-                            alt="Suivant"
-                            onClick={this.next}
-                        />
+                        <span onClick={this.previous}>
+                            <Arrow direction="left" />
+                        </span>
+
+                        <span onClick={this.next}>
+                            <Arrow direction="right" />
+                        </span>
+
                         <div className="carousel__navigation">
-                            {pictures.map((paragraph, index) => (
+                            {this.state.pictures.map((paragraph, index) => (
                                 <div
                                     className={`line ${
                                         index === this.state.currentPictureIndex
