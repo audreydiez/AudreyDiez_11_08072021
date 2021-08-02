@@ -13,10 +13,11 @@ class Collapsible extends Component {
     }
 
     handleClick = () => {
+        console.log('a')
         this.setState({ isOpen: !this.state.isOpen })
         this.state.isOpen
-            ? this.setState({ className: 'is-open' })
-            : this.setState({ className: 'is-close' })
+            ? this.setState({ className: 'is-close' })
+            : this.setState({ className: 'is-open' })
     }
 
     getContent = () => {

@@ -3,7 +3,6 @@ import './index.scss'
 
 import noPicture from './../../assets/img/no_pictures.png'
 import Arrow from './Arrow'
-import Dot from './Dot'
 
 class Carousel extends Component {
     constructor(props) {
