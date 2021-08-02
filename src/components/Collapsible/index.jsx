@@ -8,44 +8,43 @@ class Collapsible extends Component {
         super(props)
         this.state = {
             isOpen: false,
+            className: 'is-close',
         }
     }
 
     handleClick = () => {
         this.setState({ isOpen: !this.state.isOpen })
+        this.state.isOpen
+            ? this.setState({ className: 'is-open' })
+            : this.setState({ className: 'is-close' })
+    }
+
+    getContent = () => {
+        if (Array.isArray(this.props.content)) {
+            return this.props.content.map((item, index) => (
+                <p key={`item-${index}`}>{item}</p>
+            ))
+        } else {
+            return <p>{this.props.content}</p>
+        }
     }
 
     render() {
-        const { isOpen } = this.state
-        const { title, content, isArray } = this.props
-
         return (
             <div className="collapsible">
                 <div
-                    className={`collapsible__title ${
-                        isOpen ? 'is-open' : 'is-close'
-                    }`}
+                    className={`collapsible__title ${this.state.className}`}
                     onClick={this.handleClick}
                 >
-                    <p>{title} </p>
+                    <p>{this.props.title} </p>
                     <img
                         src={arrow}
-                        alt=""
-                        className={` ${isOpen ? 'is-open' : 'is-close'}`}
+                        alt="Voir le contenu"
+                        className={this.state.className}
                     />
                 </div>
-                <div
-                    className={`collapsible__content ${
-                        isOpen ? 'is-open' : 'is-close'
-                    }`}
-                >
-                    {isArray ? (
-                        content.map((item, index) => (
-                            <p key={`item-${index}`}>{item}</p>
-                        ))
-                    ) : (
-                        <p>{content}</p>
-                    )}
+                <div className={`collapsible__content ${this.state.className}`}>
+                    {this.getContent()}
                 </div>
             </div>
         )

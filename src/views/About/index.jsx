@@ -10,7 +10,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <Banner picture={about} key="{about}" />
+                <Banner picture={about} />
                 <div className="wrapper-about">
                     {aboutData.map((data) => (
                         <Collapsible
