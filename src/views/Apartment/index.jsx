@@ -4,82 +4,86 @@ import './index.scss'
 import Carousel from '../../components/Carousel'
 import ApartmentTag from '../../components/ApartmentTag'
 import Collapsible from '../../components/Collapsible'
-
-import Star from './../../components/Star'
+import Stars from './../../components/Stars'
 
 class Apartment extends Component {
-    render() {
-        const range = [1, 2, 3, 4, 5]
+    constructor(props) {
+        super(props)
+        this.state = {
+            apartment: this.getApartment(),
+        }
+    }
 
+    getApartment = () => {
         const apartment = this.props.apartments.filter(
             (apt) => apt.id === this.props.match.params.id
         )
+        return apartment[0]
+    }
 
-        const {
-            title,
-            location,
-            tags,
-            host,
-            rating,
-            description,
-            equipments,
-            pictures,
-        } = apartment[0]
+    getTags = () => {
+        return (
+            <div className="apt-profile__tags">
+                {this.state.apartment.tags.map((tag, index) => (
+                    <ApartmentTag tag={tag} key={index} />
+                ))}
+            </div>
+        )
+    }
 
-        const firstname = host.name.split(' ')[0]
-        const lastname = host.name.split(' ')[1]
+    getApartmentTitle = () => {
+        return (
+            <div className="apt-profile__title">
+                <h1>{this.state.apartment.title}</h1>
+                <div className="location">{this.state.apartment.location}</div>
+            </div>
+        )
+    }
 
+    getOwner = () => {
+        return (
+            <>
+                <div className="name">
+                    {this.state.apartment.host.name.split(' ')[0]}
+                    <br />
+                    {this.state.apartment.host.name.split(' ')[1]}
+                </div>
+                <div className="avatar">
+                    <img src={this.state.apartment.host.picture} alt="" />
+                </div>
+            </>
+        )
+    }
+
+    render() {
         return (
             <div className="apt-wrapper">
-                <Carousel pictures={pictures} />
+                <Carousel pictures={this.state.apartment.pictures} />
                 <div className="apt">
                     <div className="apt-profile">
-                        <div className="apt-profile__title">
-                            <h1>{title}</h1>
-                            <div className="location">{location}</div>
-                        </div>
-                        <div className="apt-profile__tags">
-                            {tags.map((tag, index) => (
-                                <ApartmentTag tag={tag} key={index} />
-                            ))}
-                        </div>
+                        {this.getApartmentTitle()}
+                        {this.getTags()}
                     </div>
                     <div className="apt-author">
                         <div className="apt-author__star-scale">
-                            <img src="{star}" alt="" />
-                            {range.map((rangeNumber, index) =>
-                                rating >= rangeNumber ? (
-                                    <Star
-                                        fill="#FF6060"
-                                        className="logo"
-                                        key={index}
-                                    />
-                                ) : (
-                                    <Star
-                                        fill="#E3E3E3"
-                                        className="logo"
-                                        key={index}
-                                    />
-                                )
-                            )}
+                            <Stars rating={this.state.apartment.rating} />
                         </div>
                         <div className="apt-author__identity">
-                            <div className="name">
-                                {firstname}
-                                <br />
-                                {lastname}
-                            </div>
-                            <div className="avatar">
-                                <img src={host.picture} alt="" />
-                            </div>
+                            {this.getOwner()}
                         </div>
                     </div>
                 </div>
                 <div className="description">
-                    <Collapsible title="Description" content={description} />
+                    <Collapsible
+                        title="Description"
+                        content={this.state.apartment.description}
+                    />
                 </div>
                 <div className="description">
-                    <Collapsible title="Equipements" content={equipments} />
+                    <Collapsible
+                        title="Equipements"
+                        content={this.state.apartment.equipments}
+                    />
                 </div>
             </div>
         )

@@ -1,0 +1,11 @@
+@import './../../assets/scss/mixins.scss';
+
+.star-icon {
+    width: 20px;
+    height: 20px;
+
+    @include breakpoint(m) {
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -24,7 +24,7 @@ ReactDOM.render(
                 <Header />
                 <Switch>
                     <Route exact path="/">
-                        <Home data={data} />
+                        <Home />
                     </Route>
                     <Route
                         exact
