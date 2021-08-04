@@ -24,9 +24,8 @@ class Collapsible extends Component {
             return this.props.content.map((item, index) => (
                 <p key={`item-${index}`}>{item}</p>
             ))
-        } else {
-            return <p>{this.props.content}</p>
         }
+        return <p>{this.props.content}</p>
     }
 
     render() {

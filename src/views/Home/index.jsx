@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import Banner from '../../components/Banner'
 import './index.scss'
-import data from './../../assets/data/data2.json'
+import data from './../../assets/data/data.json'
 
 import home from './../../assets/img/home.jpeg'
 import ApartmentCard from '../../components/ApartmentCard'

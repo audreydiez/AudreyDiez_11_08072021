@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import reportWebVitals from './reportWebVitals'
 
-import data from './../src/assets/data/data2.json'
+import data from './../src/assets/data/data.json'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
